@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "KhoiTaoCay.c"
-#include "TaoNode.h"
+#include "caynhiphan.h"
 #include "ThemNodeVaoCay.c"
 #include "TimMax.c"
 #include "TimMin.c"
