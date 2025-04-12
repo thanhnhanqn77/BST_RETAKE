@@ -1,3 +1,5 @@
+#ifndef CAYNHIPHAN_H
+#define CAYNHIPHAN_H
 
 NODE* TaoNode(int x)
 {
@@ -8,3 +10,14 @@ NODE* TaoNode(int x)
     p->pRight = NULL;
     return p;
 }
+
+void KhoiTaoCay(TREE* t);
+NODE* TaoNode(int x);
+void ThemNodeVaoCay(TREE* t, int x);
+int TimMax(TREE t);
+int TimMin(TREE t);
+int ChieuCaoCay(TREE t);
+void DiTimNodeTheMang(NODE** x, NODE** y);
+void XoaNode(TREE* t, int data);
+void Menu(TREE* t);
+#endif
