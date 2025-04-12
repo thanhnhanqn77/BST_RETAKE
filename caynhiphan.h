@@ -10,6 +10,8 @@ NODE* TaoNode(int x)
     p->pRight = NULL;
     return p;
 }
+typedef NODE* TREE;
+
 
 void KhoiTaoCay(TREE* t);
 NODE* TaoNode(int x);
