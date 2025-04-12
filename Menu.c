@@ -66,10 +66,6 @@ void Menu(TREE* t)
             printf("Da xoa!\n");
             system("pause");
         }
-        else if (luachon == 6)
-        {
-            
-        }
             
         else
         {
