@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "KhoiTaoCay.c"
-#include "TaoNode.c"
+#include "TaoNode.h"
 #include "ThemNodeVaoCay.c"
 #include "TimMax.c"
 #include "TimMin.c"
@@ -10,7 +10,7 @@
 #include "XoaNode.c"
 #include "Menu.c"
 
-/// Hàm main
+/// HÃ m main
 int main() {
     TREE t;
     KhoiTaoCay(&t);
