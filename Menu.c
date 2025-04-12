@@ -1,13 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "KhoiTaoCay.c"
-#include "TaoNode.c"
-#include "ThemNodeVaoCay.c"
-#include "TimMax.c"
-#include "TimMin.c"
-#include "ChieuCaoCay.c"
-#include "DiTimNodeTheMang.c"
-#include "XoaNode.c"
+
 void Menu(TREE* t)
 {
     while (1)
