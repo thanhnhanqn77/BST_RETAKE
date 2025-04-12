@@ -13,6 +13,12 @@ void Menu(TREE* t)
         printf("\n\t3. Tim min cua cay");
         printf("\n\t4. Chieu cao cua cay");
         printf("\n\t5. Xoa 1 node bat ki");
+        
+        printf("\n\t6. Tim kiem 1 phan tu");
+        printf("\n\t7. Kiem tra tinh can bang cua cay nhi phan");
+        printf("\n\t8. Can bang cay nhi phan");
+        printf("\n\t9. So luong node trong cay");
+        printf("\n\t10. In ra cac phan tu trong cay");
         printf("\n\t0. Ket thuc");
 
         int luachon;
@@ -60,6 +66,11 @@ void Menu(TREE* t)
             printf("Da xoa!\n");
             system("pause");
         }
+        else if (luachon == 6)
+        {
+            
+        }
+            
         else
         {
             printf("Lua chon khong hop le!\n");
